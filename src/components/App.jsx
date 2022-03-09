@@ -7,7 +7,6 @@ import notes from "../notes";
 const createNote = (note) => {
   return (
     <Note
-    key={note.key}
     title={note.title}
     content={note.content}
      />
