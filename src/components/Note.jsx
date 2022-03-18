@@ -4,8 +4,9 @@ import React from "react";
 function Note(props) {
   return (
     <div className="note">
-      <h1><strong>{props.title}</strong></h1>
+      <h1><{props.title}</h1>
       <p>{props.content}</p>
+      <button><DELETE</D></button>
     </div>
   );
 }
